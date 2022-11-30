@@ -78,7 +78,7 @@ function Products(props) {
       <AddProduct onAddProduct={productAddHandler} />
       {isLoading && <h2>Loading...</h2>}
       {!isLoading && (
-        <ul className='unlisted grid--pr'>
+        <ul className="unlisted grid--pr">
           {/* mapinti per mainProductsArray ir generuoti li */}
           {mainProductsArray.map((pObj) => (
             // SingleProductui paduoti id props
